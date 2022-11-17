@@ -63,14 +63,32 @@
 #### :school_satchel: 오픈소스 목록
 
 ```
-6. tensorflow
-7. tensorflow serving
+1. JQuery Validation
+2. WordPress
+3. SOLR
+4. Coupang Category Recommendation API
+5. React
+6. OpenRefine
+7. Apache Spark
+8. Scrapy
+9. Tensorflow
+10. Tensorflow Serving
 ```
 
 <br>
 
 #### :school_satchel: 오픈소스 특징 및 역할
 
+* Coupang Category Recommendation API
+```
+- 가지고 있는 상품정보(상품명, 브랜드, 속성 등)을 입력하면 해당 정보와 가장 일치하는 카테고리를 찾아서 제안해주는 서비스이다.
+- 과거 등록되었던 상품의 쿠팡 카테고리를 시스템에 학습시킨 머신러닝 모델로 서비스되고 있다.
+- 부정확한 정보 입력 시 정확한 카테고리가 추천되지 않을 수 있다.
+```
+
+```
+사용자가 가지고 있는 제품의 데이터(사용자 프로필 데이터)로 사용자 기반 추천을 하여 추천된 카테고리 정보를 생성
+```
 * Tensorflow
 ```
 - 2015년 구글에서 공개
@@ -106,6 +124,7 @@ Tensorflow를 이용하여 만들어진 데이터를 사용자에게 전달하�
 | ------------------ | ---------- | ----------- | ----------- | ----------- |
 | tensorflow         | files      | tensor      | tf.data API | Apache 2.0 |
 | tensorflow serving | tensor     | json        | Tensorflow Serving API | Apache 2.0 |
+| Coupang Open API | json | json | Category Recommendation API | MIT License
 
 <br>
 
