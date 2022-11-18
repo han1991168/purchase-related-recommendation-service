@@ -144,6 +144,25 @@ Tensorflow를 이용하여 만들어진 데이터를 사용자에게 전달하�
 
 <br>
 
+* OpenRefine
+
+```
+- 2010년 Google의 오픈 프로젝트
+- 전처리를 하기 위한 데이터 랭글링(data wrangling)
+- 스프레드시트 파일 포맷과 동작한다는 점에서 스프레드시트 애플리케이션과 유사하지만 보다 데이터베이스처럼 동작
+- 데이터의 전반적인 경향성을 보고자 할 때 편리 
+- 데이터 정제 도구 : 오류 수정, 데이터 정리
+- 데이터 연계 API 및 워크플로우 기능 제공
+```
+
+<br>
+
+```
+대규모 데이터를 정제하고 다른 포맷으로 변환하는 데 사용
+```
+
+
+
 - Scrapy
 
 ```
@@ -164,6 +183,7 @@ Tensorflow를 이용하여 만들어진 데이터를 사용자에게 전달하�
 | ------------------ | ---------- | ----------- | ------------ |
 | tensorflow         | files      | tensor      | Apache 2.0   |
 | tensorflow serving | tensor     | json        | Apache 2.0   |
+| OpenRefine         | json 등    | json 등     | BSD          |
 | scrapy             | text       | json        | BSD-3-Clause |
 | jQuery-validation  | text       | form        | MIT          |
 | solr               | text       | json        | Apache 2.0   |
