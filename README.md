@@ -90,11 +90,27 @@
 - 다양한 컴포넌트와 라이브러리 지원
 - Scala, JAVA, Pyhon 등의 다양한 언어 기반의 고수준 API를 사용 가능
 - 스트리밍, 머신러닝 등 넓은 범위의 라이브러리를 제공
+- RDD는 Resilient Distributed Datasets의 줄임말로, 메모리 내부에서 데이터가 손실 시 유실된 파티션을 재연산해 복구할 수 있으며 스파크 클러스터를 통하여, 메모리에 분산되어 저장되는 데이터이다. 즉, 회복력 있는 분산 데이터이다.
 ```
 
 ```
 사용자 DB의 구매이력과 최근항목, 제품 DB의 카테고리 및 설명을 정제한 데이터를 받아 적절한 제품을 추천
 ```
+
+<br>
+
+- Coupang Category Recommendation API
+```
+- 가지고 있는 상품정보(상품명, 브랜드, 속성 등)을 입력하면 해당 정보와 가장 일치하는 카테고리를 찾아서 제안해주는 서비스이다.
+- 과거 등록되었던 상품의 쿠팡 카테고리를 시스템에 학습시킨 머신러닝 모델로 서비스되고 있다.
+- 부정확한 정보 입력 시 정확한 카테고리가 추천되지 않을 수 있다.
+```
+
+```
+사용자가 가지고 있는 제품의 데이터(사용자 프로필 데이터)로 사용자 기반 추천을 하여 추천된 카테고리 정보를 생성
+```
+
+<br>
 
 - jquery-validation
 
@@ -161,6 +177,23 @@ Tensorflow를 이용하여 만들어진 데이터를 사용자에게 전달하�
 
 <br>
 
+* OpenRefine
+
+```
+- 2010년 Google의 오픈 프로젝트
+- 전처리를 하기 위한 데이터 랭글링(data wrangling)
+- 스프레드시트 파일 포맷과 동작한다는 점에서 스프레드시트 애플리케이션과 유사하지만 보다 데이터베이스처럼 동작
+- 데이터의 전반적인 경향성을 보고자 할 때 편리 
+- 데이터 정제 도구 : 오류 수정, 데이터 정리
+- 데이터 연계 API 및 워크플로우 기능 제공
+```
+
+```
+대규모 데이터를 정제하고 다른 포맷으로 변환하는 데 사용
+```
+
+<br>
+
 - Scrapy
 
 ```
@@ -182,9 +215,11 @@ Tensorflow를 이용하여 만들어진 데이터를 사용자에게 전달하�
 | Apache Spark       | RDD        | RDD         | Apache 2.0   |
 | tensorflow         | files      | tensor      | Apache 2.0   |
 | tensorflow serving | tensor     | json        | Apache 2.0   |
+| OpenRefine         | json 등    | json 등     | BSD          |
 | scrapy             | text       | json        | BSD-3-Clause |
 | jQuery-validation  | text       | form        | MIT          |
 | solr               | text       | json        | Apache 2.0   |
+| Coupang Open API   | json       | json        | MIT          |
 
 <br>
 
@@ -193,5 +228,39 @@ Tensorflow를 이용하여 만들어진 데이터를 사용자에게 전달하�
 <div align=center>
 
 ![image](./dfd%20picture.PNG)
+
+</div>
+
+<br>
+
+#### 💻 실행 화면
+
+```
+1. 아이디와 비밀번호를 입력하여 회원 여부 판별 및 아이디, 비밀번호 문자열 유효성 검사
+```
+
+<div align=center>
+
+![image](./실행화면1.PNG)
+
+</div>
+
+```
+2. 회원정보를 바탕으로 맞춤화된 상품 추천 및 검색어 입력
+```
+
+<div align=center>
+
+![image](./실행화면2.PNG)
+
+</div>
+
+```
+3. 검색한 후에 검색어를 바탕으로 상품들을 우선순위 반영하여 추천, 검색어에 맞는 광고 링크 생성 
+```
+
+<div align=center>
+
+![image](./실행화면3.PNG)
 
 </div>
