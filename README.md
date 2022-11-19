@@ -208,6 +208,35 @@ Tensorflow를 이용하여 만들어진 데이터를 사용자에게 전달하�
 추천된 제품명을 웹사이트 내에서 재검색한 url을 이용해 scrapy를 통해 제품이미지,제품명,제품url을 크롤링해 사용자에게 광고를 띄워줌
 ```
 
+<br>
+
+- WordPress
+
+```
+- PHP 언어를 기반으로 작성된 오픈소스 CMS
+- 템플릿 시스템 사용
+- PHP와 HTML 코드 수정 없이도 다시 정리할 수 있는 위젯 포함
+- 수많은 테마와 다양한 유·무료 플러그인 사용 가능
+```
+
+```
+WordPress를 통하여 웹사이트를 구축
+```
+
+<br>
+
+- React
+
+```
+- Facebook에서 주도하여 개발한 웹 어플리케이션의 UI를 효과적으로 구축하기 위해 사용하는 Javascript 기반 라이브러리
+- 성능이 뛰어난 가비지 컬랙터, 메모리 관리 기능 지원
+- UI 수정과 재사용성이 좋으며, 코드 가독성을 높일 수 있음
+```
+
+```
+React를 통하여 사용자가 편하게 사용할 수 있는 UI 구축
+```
+
 #### :school_satchel: 오픈소스 데이터 타입 및 라이선스
 
 | open source        | input data | output data | license      |
@@ -220,6 +249,8 @@ Tensorflow를 이용하여 만들어진 데이터를 사용자에게 전달하�
 | jQuery-validation  | text       | form        | MIT          |
 | solr               | text       | json        | Apache 2.0   |
 | Coupang Open API   | json       | json        | MIT          |
+| wordpress          | text       | json        | GPLv2        |
+| react              | json       | UI          | MIT          |
 
 <br>
 
