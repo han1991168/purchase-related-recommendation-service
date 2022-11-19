@@ -79,6 +79,26 @@
 
 #### :school_satchel: 오픈소스 특징 및 역할
 
+- Apache Spark
+
+```
+- 2014년 5월 26일에 최초 출시
+- SQL, 스트리밍, 머신러닝 및 그래프 처리를 위한 기본 제공 모듈이 있는 대규모 데이터 처리용 통합 분석 엔진
+- 통합 컴퓨팅 엔진이며 클러스터 환경에서 데이터를 병렬로 처리
+- 인메모리 처리 아키텍처
+- 반복적인 처리가 필요한 작업에서 하둡보다 최소 1000배이상 빠른 속도
+- 다양한 컴포넌트와 라이브러리 지원
+- Scala, JAVA, Pyhon 등의 다양한 언어 기반의 고수준 API를 사용 가능
+- 스트리밍, 머신러닝 등 넓은 범위의 라이브러리를 제공
+- RDD는 Resilient Distributed Datasets의 줄임말로, 메모리 내부에서 데이터가 손실 시 유실된 파티션을 재연산해 복구할 수 있으며 스파크 클러스터를 통하여, 메모리에 분산되어 저장되는 데이터이다. 즉, 회복력 있는 분산 데이터이다.
+```
+
+```
+사용자 DB의 구매이력과 최근항목, 제품 DB의 카테고리 및 설명을 정제한 데이터를 받아 적절한 제품을 추천
+```
+
+<br>
+
 - Coupang Category Recommendation API
 ```
 - 가지고 있는 상품정보(상품명, 브랜드, 속성 등)을 입력하면 해당 정보와 가장 일치하는 카테고리를 찾아서 제안해주는 서비스이다.
@@ -192,6 +212,7 @@ Tensorflow를 이용하여 만들어진 데이터를 사용자에게 전달하�
 
 | open source        | input data | output data | license      |
 | ------------------ | ---------- | ----------- | ------------ |
+| Apache Spark       | RDD        | RDD         | Apache 2.0   |
 | tensorflow         | files      | tensor      | Apache 2.0   |
 | tensorflow serving | tensor     | json        | Apache 2.0   |
 | OpenRefine         | json 등    | json 등     | BSD          |
