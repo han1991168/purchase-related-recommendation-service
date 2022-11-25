@@ -17,6 +17,8 @@
 3. 오픈소스 목록
 4. 오픈소스 특징 및 역할
 5. 오픈소스 데이터 타입 및 라이선스
+  5.1 배포 시 예상 문제
+  5.2 문제에 대한 입장
 6. DFD(data flow diagram)
 7. 실행화면
 ```
@@ -251,6 +253,20 @@ React를 통하여 사용자가 편하게 사용할 수 있는 UI 구축
 | Coupang Open API   | json       | json        | MIT          |
 | wordpress          | text       | json        | GPLv2        |
 | react              | json       | UI          | MIT          |
+
+<br>
+
+##### 배포 시 예상 문제
+```
+- 배포 시 예상 문제
+```
+
+<br>
+
+##### 배포 시 예상 문제
+```
+- 문제에 대한 입장
+```
 
 <br>
 
