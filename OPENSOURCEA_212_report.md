@@ -290,7 +290,7 @@ React를 통하여 사용자가 편하게 사용할 수 있는 UI 구축
 
 <div align=center>
 
-![image](./dfd%20picture.PNG)
+![image](https://user-images.githubusercontent.com/117060456/204118660-a13e672b-b014-4345-ab86-27fc07e15480.png)
 
 </div>
 
