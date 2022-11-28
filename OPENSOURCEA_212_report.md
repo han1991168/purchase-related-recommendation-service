@@ -304,7 +304,7 @@ React를 통하여 사용자가 편하게 사용할 수 있는 UI 구축
 
 <div align=center>
 
-![image](./실행화면1.PNG)
+![image](https://user-images.githubusercontent.com/115435628/204184844-a4fc39b7-286d-4da0-b9b2-1735902b2fec.PNG)
 
 </div>
 
